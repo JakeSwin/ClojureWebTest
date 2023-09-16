@@ -1,0 +1,8 @@
+{:paths ["src" "resources"]
+ :deps  {ring/ring-core {:mvn/version "1.9.6"}
+         ring-refresh/ring-refresh {:mvn/version "0.1.3"}
+         info.sunng/ring-jetty9-adapter {:mvn/version "0.30.0"} 
+         compojure/compojure {:mvn/version "1.7.0"}
+         metosin/reitit {:mvn/version "0.6.0"}
+         ring/ring-defaults {:mvn/version "0.3.4"}
+         hiccup/hiccup {:mvn/version "1.0.5"}}}
